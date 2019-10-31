@@ -10,5 +10,5 @@ export function hello(options?: IHelloOptions) {
   options = mixin({
     name: 'World'
   }, options);
-  return `Hello ${options.name}`;
+  return `Hello ${options.name}!!!`;
 }
